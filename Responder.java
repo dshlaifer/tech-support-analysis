@@ -173,4 +173,7 @@ public class Responder
         int index = randomGenerator.nextInt(defaultResponses.size());
         return defaultResponses.get(index);
     }
+    public HashMap<String, String> getResponseMap() {
+        return responseMap;
+    }
 }

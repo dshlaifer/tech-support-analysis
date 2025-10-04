@@ -31,4 +31,18 @@ public class WordCounter
             counts.put(word, counter + 1);
         }
     }
+    public void printWordCounts() {
+        System.out.println("word usage counter");
+        for (String word : counts.keySet()) {
+            System.out.println(word + ": " + counts.get(word));
+        }
+    }
+    public void printCountsNotInMap(HashMap<String, String> map) {
+        System.out.println("Word counts (words not in responseMap):");
+        for (String word : counts.keySet()) {
+            if (!map.containsKey(word)) {
+                System.out.println(word + ": " + counts.get(word));
+            }
+        }
+    }
 }

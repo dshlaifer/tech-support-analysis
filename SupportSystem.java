@@ -27,6 +27,7 @@ public class SupportSystem
         reader = new InputReader();
         responder = new Responder();
         counter = new WordCounter();
+        
     }
 
     /**
@@ -71,6 +72,7 @@ public class SupportSystem
      */
     private void printGoodbye()
     {
-        System.out.println("Nice talking to you. Bye...");
+        System.out.println("goodbye");
+        counter.printCountsNotInMap(responder.getResponseMap());
     }
 }

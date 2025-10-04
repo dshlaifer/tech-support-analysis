@@ -1,29 +1,20 @@
-TechSupport - the DodgySoft Technical support system.
+43. The difference 
+getOrDefault(key, defaultValue) looks for the key
+if its there, it give you its value
+if its no, it gives you the defaultValue you provided.
 
-This project is part of the material for the book
+46. it is mostly Accurate for signatures and structure.
+partially Complete depends on how comments were written.
+Class summaries, method signatures, field descriptions were Usfult.
+private methods/fields and auto generated comments were not useful.
 
-   Objects First with Java - A Practical Introduction using BlueJ
-   Seventh edition
-   David J. Barnes and Michael Kölling
+47. In The TechSupport projects he key symbols used were
+@author, @version, @param, @return
 
-This project is discussed in chapter 6.
-
-
-This project implements a technical support system for customers of the 
-DodgySoft software company. Users can describe their software problems and 
-get advice instantly!
-
-The idea is based on Eliza - a famous program described by Joseph Weizenbaum 
-in 1966. (Do a web search for "Eliza" and "Weizenbaum" if you want to know 
-more about this.)
-
-In fact, it is much more primitive than Eliza. But that's enough to match the 
-quality of many software companies' technical support advice...  ;-)
-
-To start this program, create a SupportSystem object and execute the "start" 
-method.
-
-Then start describing your problem by typing in the terminal window.
-
-The purpose of this project is to demonstrate and study library classes, such 
-as ArrayList, HashMap, HashSet, and Random.
+48. @throws
+@deprecated
+@see
+@since
+{@link}
+{@code}
+{@literal}
